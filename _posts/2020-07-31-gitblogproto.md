@@ -1,5 +1,7 @@
 ---
 title: github blog tuto prototype
+tags: gitHubBlog
+categories : gitHubBlog
 ---
 
 포스팅 테스트 겸 첫 포스팅입니다. 차후 가독성 보완 작업을 진행할것입니다.
@@ -40,13 +42,13 @@ https://github.com/topics/jekyll
 
 ->git에 관해서는 천천히 공부해서 포스팅을 다시 하도록 하겠습니다.
 
-해당 파일은 위에서 만들어준 repositories  폴더 내부에 압축을 풀어주시면 됩니다. 
+해당 파일은 위에서 만들어준 repositories  폴더 내부에 압축을 풀어주시면 됩니다.
 그렇게되면 HanSolCho.github.io-master 이와 비슷한 형식의 폴더와 그 내부는  
-https://github.com/HanSolCho/HanSolCho.github.io 비슷한 형식으로 구성이 될것입니다. 
+https://github.com/HanSolCho/HanSolCho.github.io 비슷한 형식으로 구성이 될것입니다.
 
-모든 작업을 바로 웹으로 적용시키기에는 위험부담이 있으니 로컬에서 먼저 작업을 진행하고 github에 올리도록 하려면 로컬에서 개발이 가능해야합니다. 
+모든 작업을 바로 웹으로 적용시키기에는 위험부담이 있으니 로컬에서 먼저 작업을 진행하고 github에 올리도록 하려면 로컬에서 개발이 가능해야합니다.
 https://rubyinstaller.org/downloads/ 에서 최신버전을 다운받았고 jekyll 테마를 압축해제한 폴더에 가보면 Gemfile이 형성 되어있을것입니다.
-cmd를 통해 Gemfile이 있는 폴더에서 아래 명령어를 차례로 입력해주면 
+cmd를 통해 Gemfile이 있는 폴더에서 아래 명령어를 차례로 입력해주면
 
 
 
@@ -62,7 +64,7 @@ minimal-mistakes 테마의 기본 화면입니다.
 자 일단 repositories의 최상단에 위치한 _config.yml파일로 들어가봅시다.
 
 첫 번째로 테마에 관련된 부분들입니다.
-천천히 읽어보시면 어느부분을 고치면 본인이 원하는 곳을 수정할 수 있을지 알 수 있고 
+천천히 읽어보시면 어느부분을 고치면 본인이 원하는 곳을 수정할 수 있을지 알 수 있고
 minimal-mistakes github에 가서 읽어보셔도 도움이 됩니다.
 
 다음은 블로그 왼쪽에 나에 대해서 적은 공간입니다.
@@ -74,7 +76,7 @@ navigation bar라고 불리는 상단의 목록표입니다.
 
 /_data/navigation.yml
 
-여기서 타이틀은 화면에 보이지는 이름이고 url값이 경로를 의미합니다. 이 부분에서 _pages폴더에 필요한 페이지 정보들을 삽입합니다. 
+여기서 타이틀은 화면에 보이지는 이름이고 url값이 경로를 의미합니다. 이 부분에서 _pages폴더에 필요한 페이지 정보들을 삽입합니다.
 
 이는 _pages/category-archive.md 파일인데 peramalink값으로 navigation의 Categories의 url이 연결되어있을것임을 알 수 있습니다. 즉 navigation의 Categories를 클릭하면 url을 통해 category-archive.md파일의 peramalink와 연결되고 이는 layout에 지정된 categories라는 html파일을 불러오도록 되어있습니다.
 
@@ -93,7 +95,7 @@ navigation bar라고 불리는 상단의 목록표입니다.
 보통 처음 repository를 만들고 그 안에 들어가보면 다음과 같은 화면을 볼 수 있습니다.
 우리는 이미 repository를 만들어 둔 상태이기에 2번째 안내를 따라서 진행하면 될겁니다.
 
-git remote add orgin "https://" -> orgin이라는 이름으로 해당 주소와 연결해준다고 생각해주면 될것같습니다. 
+git remote add orgin "https://" -> orgin이라는 이름으로 해당 주소와 연결해준다고 생각해주면 될것같습니다.
 git push -u origin master -> orgin이라고 이름붙인 저장소의 master branch에 넣는다라고 생각하면 되는데 이 부분은 훗날 더 공부해서 따로 포스팅하도록 하겠습니다.
 
 이후에는 내용이 변경될때마다
