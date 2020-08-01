@@ -25,7 +25,7 @@ categories : gitHubBlog
 깃허브에 회원가입을 하고 나서 다음과 같은 화면에서 New 버튼을 누르게되면 새로운 repositories를 만들 수 있습니다.
 
 ![alt-text](http://localhost:4000/repo_new_icon.PNG)
-![alt-text](assets/image/repo_new_icon.PNG "이미지입니다")
+![alt-text](https://hansolcho.github.io/assets/image/repo_new_icon.PNG "이미지입니다")
 
 위 사진과 같은 화면이 나오는데 repositories name을 "name".github.io라고 지어준다. 제 경우에는 HanSolCho.github.io가 되는 것입니다. 즉 “name"의 자리에 HanSolCho와 같은 자신의 이름을 적어주면 됩니다. 이 작업을 수행하고 나면 여러분은 https://"name".github.io 의 주소에 자신의 블로그를 만들었습니다.
 Initialize this repository with a README 의 경우 자동적으로 홈페이지 주소가 적힌 README파일을 만들어주는 것으로 큰 의미는 없습니다.
