@@ -19,6 +19,8 @@ title: github blog tuto prototype
 
 
 1. github repositories만들기
+![alt-text](http://localhost:4000/repo_new_icon.PNG)
+![alt-text](assets/image/repo_new_icon.PNG "이미지입니다")
 
 깃허브에 회원가입을 하고 나서 다음과 같은 화면에서 New 버튼을 누르게되면 새로운 repositories를 만들 수 있습니다.
 
