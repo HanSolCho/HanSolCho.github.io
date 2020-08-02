@@ -1,5 +1,5 @@
 ---
-title: [맨땅에 해당하기] Git Blog 시작하기
+title: 맨땅에 해당하기 Git Blog 시작하기
 tags: gitHubBlog
 categories : gitHubBlog
 ---
